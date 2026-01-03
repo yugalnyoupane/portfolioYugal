@@ -1,0 +1,8 @@
+
+{
+  "name": "Personal Portfolio & AI Assistant",
+  "description": "A high-end, responsive portfolio website featuring a built-in AI assistant powered by Gemini to answer recruiter questions in real-time.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

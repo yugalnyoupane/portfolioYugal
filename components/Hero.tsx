@@ -36,13 +36,13 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex items-center justify-center md:justify-start gap-6 pt-4">
-            <a href={PERSONAL_INFO.github} className="text-slate-400 hover:text-slate-900 transition-colors">
+            <a href={PERSONAL_INFO.github} className="text-slate-400 hover:text-slate-900 transition-colors" target="_blank">
               <Github className="w-6 h-6" />
             </a>
-            <a href={PERSONAL_INFO.linkedin} className="text-slate-400 hover:text-slate-900 transition-colors">
+            <a href={PERSONAL_INFO.linkedin} className="text-slate-400 hover:text-slate-900 transition-colors" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href={`mailto:${PERSONAL_INFO.email}`} className="text-slate-400 hover:text-slate-900 transition-colors">
+            <a href={`mailto:${PERSONAL_INFO.email}`} className="text-slate-400 hover:text-slate-900 transition-colors" target="_blank">
               <Mail className="w-6 h-6" />
             </a>
           </div>

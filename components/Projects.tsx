@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
                 
                 <div className="flex items-center gap-4">
                   {project.link && (
-                    <a href={project.link} className="inline-flex items-center text-sm font-bold text-slate-900 hover:text-blue-600 transition-colors">
+                    <a href={project.link} className="inline-flex items-center text-sm font-bold text-slate-900 hover:text-blue-600 transition-colors" target="_blank">
                       Live Preview <ExternalLink className="ml-2 w-4 h-4" />
                     </a>
                   )}
